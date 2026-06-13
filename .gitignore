@@ -1,0 +1,64 @@
+# ---- OS files ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+*.temp
+
+# ---- Creative app cache / scratch ----
+# Adobe and editing app working files we do not want in git
+Adobe Premiere Pro Auto-Save/
+Adobe After Effects Auto-Save/
+*.pek            # Premiere audio peak cache
+*.cfa            # Premiere conformed audio
+*.prtl           # Premiere title (legacy)
+Media Cache/
+Media Cache Files/
+*.aep.lock
+CamDiagnostics/
+
+# Lightroom helper files (keep catalog, drop volatile bits)
+*.lrcat-journal
+*.lrcat.lock
+*.lrdata/        # large render cache; re-buildable
+
+# Capture One cache
+*.cocache/
+*.cosessiondb-journal
+
+# DaVinci Resolve cache
+CacheClip/
+ProxyMedia/
+
+# ---- Proxy / preview renders (re-buildable) ----
+Proxies/
+Previews/
+
+# ---- Node / web tooling (if a portfolio site is added later) ----
+node_modules/
+dist/
+build/
+.next/
+.cache/
