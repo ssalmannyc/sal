@@ -6,6 +6,8 @@ Personal portfolio and media project for Sal. This repository holds
 photography, videography, creative media, personal brand assets, and
 Sal Media presentation material.
 
+Repository documentation: [docs/README.md](docs/README.md)
+
 ## Overview
 
 This is the home base for Sal's professional creative work. It organizes
